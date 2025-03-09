@@ -29,12 +29,14 @@
 <hr style="height: 3px; width: 95%" color="#1f1a1b">
 <center>
       <div style="background-color: #ffdfaa; width: 90%; height: 400px">
-    <form>
+    <form action="https://api.web3forms.com/submit" method="POST">
+   <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
    <input type="text" name="fullname" placeholder="Full name">
    <input type="text" name="email" placeholder ="E-mail">
    <input type="number" name="phone number" placeholder="Phone Number">
    <input type="text" name="query" placeholder="Your queries/questions">
-   <br><input type="submit">
+   <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+   <br><button type="submit">Submit Form</button>
    </form>
           
 
